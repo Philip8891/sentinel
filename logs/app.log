@@ -1,0 +1,830 @@
+2025-03-18 13:08:51,060 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-18 13:08:51,061 [INFO] Scheduler elindult. Minden 5 percben lefutnak a feladatok.
+2025-03-18 13:08:51,062 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-18 13:08:51,062 [INFO] Scheduler started
+2025-03-18 13:10:42,696 [ERROR] ❌ Sync engine hiba: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-03-18 13:11:04,835 [INFO] Scheduler leállítása...
+2025-03-18 13:12:14,836 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-18 13:12:14,836 [INFO] Scheduler elindult. Minden 5 percben lefutnak a feladatok.
+2025-03-18 13:12:14,837 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-18 13:12:14,837 [INFO] Scheduler started
+2025-03-18 13:12:16,683 [INFO] Scheduler leállítása...
+2025-03-18 13:25:51,947 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:25:56,665 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7e220e07fb90 state=finished raised ClientResponseError>]
+2025-03-18 13:25:56,665 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7e220e053e30 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:25:56,666 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:29:25,839 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:25,852 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:25,867 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:27,108 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:27,136 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:27,147 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:29,378 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:29,402 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:29,416 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:29,416 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:29:30,349 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:30,350 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:30,350 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:29:34,017 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7920343e2150 state=finished raised ClientResponseError>]
+2025-03-18 13:29:34,018 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7920343e31a0 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:29:34,020 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:29:37,698 [ERROR] ❌ Sync engine hiba: No module named 'mysql'
+2025-03-18 13:32:41,749 [INFO] ✅ MSFT adatai mentve.
+2025-03-18 13:32:41,749 [INFO] ✅ TSLA adatai mentve.
+2025-03-18 13:32:41,750 [INFO] ✅ AAPL adatai mentve.
+2025-03-18 13:32:41,751 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:32:43,178 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-18 13:32:43,180 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-18 13:32:43,190 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-18 13:32:43,192 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-18 13:32:46,715 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7f4d7de62cc0 state=finished raised ClientResponseError>]
+2025-03-18 13:32:46,716 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7f4d7f07f6b0 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:32:46,716 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:37:52,255 [INFO] ✅ AAPL adatai mentve.
+2025-03-18 13:37:52,256 [INFO] ✅ MSFT adatai mentve.
+2025-03-18 13:37:52,257 [INFO] ✅ TSLA adatai mentve.
+2025-03-18 13:37:52,258 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:37:53,580 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-18 13:37:53,623 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-18 13:37:53,704 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-18 13:37:53,705 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-18 13:37:57,299 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7191da4e60c0 state=finished raised ClientResponseError>]
+2025-03-18 13:37:57,299 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7191da6faa20 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:37:57,300 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:39:07,032 [INFO] ✅ AAPL adatai mentve.
+2025-03-18 13:39:07,035 [INFO] ✅ MSFT adatai mentve.
+2025-03-18 13:39:07,038 [INFO] ✅ TSLA adatai mentve.
+2025-03-18 13:39:07,039 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:39:08,239 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-18 13:39:08,270 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-18 13:39:08,399 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-18 13:39:08,401 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-18 13:39:11,940 [ERROR] RSS fetch hiba: RetryError[<Future at 0x70b8e77c5c40 state=finished raised ClientResponseError>]
+2025-03-18 13:39:11,940 [ERROR] RSS fetch hiba: RetryError[<Future at 0x70b8e77c6fc0 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:39:11,941 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:44:17,748 [INFO] ✅ AAPL adatai mentve.
+2025-03-18 13:44:17,752 [INFO] ✅ MSFT adatai mentve.
+2025-03-18 13:44:17,753 [INFO] ✅ TSLA adatai mentve.
+2025-03-18 13:44:17,755 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:44:18,897 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-18 13:44:19,135 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-18 13:44:19,251 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-18 13:44:19,253 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-18 13:44:22,827 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7b2579695400 state=finished raised ClientResponseError>]
+2025-03-18 13:44:22,828 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7b2579171550 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:44:22,829 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-18 13:48:14,166 [INFO] ✅ AAPL adatai mentve.
+2025-03-18 13:48:14,168 [INFO] ✅ MSFT adatai mentve.
+2025-03-18 13:48:14,169 [INFO] ✅ TSLA adatai mentve.
+2025-03-18 13:48:14,169 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-18 13:48:15,456 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-18 13:48:15,498 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-18 13:48:15,569 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-18 13:48:15,571 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-18 13:48:19,151 [ERROR] RSS fetch hiba: RetryError[<Future at 0x747361adfe00 state=finished raised ClientResponseError>]
+2025-03-18 13:48:19,152 [ERROR] RSS fetch hiba: RetryError[<Future at 0x747361d07d70 state=finished raised ClientConnectorDNSError>]
+2025-03-18 13:48:19,153 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-19 11:54:17,796 [ERROR] Hiba a symbols tábla lekérdezése során: (pymysql.err.ProgrammingError) (1146, "Table 'alpaca_db.symbols' doesn't exist")
+[SQL: SELECT * FROM symbols]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-19 12:14:09,111 [INFO] ✅ MSFT adatai mentve.
+2025-03-19 12:14:09,112 [INFO] ✅ TSLA adatai mentve.
+2025-03-19 12:14:09,118 [INFO] ✅ AAPL adatai mentve.
+2025-03-19 12:14:09,119 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-19 12:14:10,405 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-19 12:14:10,412 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-19 12:14:10,416 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-19 12:14:10,418 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-19 12:14:13,929 [ERROR] RSS fetch hiba: RetryError[<Future at 0x79f2beb69850 state=finished raised ClientResponseError>]
+2025-03-19 12:14:13,929 [ERROR] RSS fetch hiba: RetryError[<Future at 0x79f2be900230 state=finished raised ClientConnectorDNSError>]
+2025-03-19 12:14:13,930 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-19 12:23:54,416 [INFO] ✅ MSFT adatai mentve.
+2025-03-19 12:23:54,417 [INFO] ✅ TSLA adatai mentve.
+2025-03-19 12:23:54,424 [INFO] ✅ AAPL adatai mentve.
+2025-03-19 12:23:54,424 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-19 12:23:55,525 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-19 12:23:55,593 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-19 12:23:55,672 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-19 12:23:55,674 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-19 12:23:59,182 [ERROR] RSS fetch hiba: RetryError[<Future at 0x74014b980fb0 state=finished raised ClientResponseError>]
+2025-03-19 12:23:59,183 [ERROR] RSS fetch hiba: RetryError[<Future at 0x74014b2eb1d0 state=finished raised ClientConnectorDNSError>]
+2025-03-19 12:23:59,183 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-19 12:36:22,589 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-19 12:36:22,625 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-19 12:36:22,649 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-19 12:36:22,650 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-19 12:36:26,180 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7bda708e7080 state=finished raised ClientResponseError>]
+2025-03-19 12:36:26,181 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7bda708e6ae0 state=finished raised ClientConnectorDNSError>]
+2025-03-19 12:36:26,182 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-19 12:48:14,283 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-19 12:48:14,297 [INFO] ✅ SOLUSD Kraken adatok mentve.
+2025-03-19 12:48:14,317 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-19 12:48:14,319 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-19 12:48:17,913 [ERROR] RSS fetch hiba: RetryError[<Future at 0x78a3806e2a80 state=finished raised ClientResponseError>]
+2025-03-19 12:48:17,914 [ERROR] RSS fetch hiba: RetryError[<Future at 0x78a380b023c0 state=finished raised ClientConnectorDNSError>]
+2025-03-19 12:48:17,914 [INFO] ✅ 66 hír bejegyzés lekérve.
+2025-03-20 12:26:57,936 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-20 12:27:48,662 [INFO] 🎉 Alpaca adatok feldolgozása kész.
+2025-03-20 12:27:49,729 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-20 12:27:49,737 [ERROR] ❌ Hiba XRPUSD Kraken adatainak feldolgozásakor: 'XRPUSD'
+2025-03-20 12:27:49,739 [ERROR] ❌ Hiba BTCUSD Kraken adatainak feldolgozásakor: 'XBTUSD'
+2025-03-20 12:27:49,740 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-20 12:27:53,196 [ERROR] RSS fetch hiba: RetryError[<Future at 0x73a8e5149e80 state=finished raised ClientResponseError>]
+2025-03-20 12:27:53,197 [INFO] ✅ 64 hír bejegyzés lekérve.
+2025-03-20 12:41:07,059 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-20 12:41:07,067 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-20 12:41:07,211 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-20 12:41:07,213 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-20 12:57:03,724 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-20 12:58:01,396 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-20 12:58:01,627 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-20 12:58:01,627 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-20 13:00:29,288 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-20 13:00:29,518 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-20 13:00:29,519 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-20 13:10:29,101 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-20 13:10:29,282 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-20 13:10:29,282 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-20 13:10:29,835 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-20 13:10:29,893 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-20 13:10:29,894 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-20 13:25:33,858 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-20 13:25:33,929 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-20 13:25:33,961 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-20 13:25:33,963 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-20 13:25:37,631 [ERROR] RSS fetch hiba: RetryError[<Future at 0x79eb0420f1d0 state=finished raised ClientResponseError>]
+2025-03-20 13:25:37,632 [INFO] ✅ 65 hír bejegyzés lekérve.
+2025-03-20 13:25:38,225 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-20 13:25:40,593 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-20 13:25:40,774 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-20 13:25:40,774 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-20 13:25:41,297 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-20 13:25:41,349 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-20 13:25:41,350 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 12:48:14,625 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 12:48:14,627 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 12:48:14,627 [INFO] Scheduler started
+2025-03-21 12:54:58,073 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 12:54:58,075 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 12:54:58,075 [INFO] Scheduler started
+2025-03-21 12:57:42,057 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 12:57:42,058 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 12:57:42,059 [INFO] Scheduler started
+2025-03-21 13:01:36,943 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:01:36,945 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:01:36,945 [INFO] Scheduler started
+2025-03-21 13:03:23,301 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:03:23,308 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:03:23,424 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:03:23,426 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:03:27,506 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c7ccbf605f0 state=finished raised ClientResponseError>]
+2025-03-21 13:03:27,506 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c7ccc179e50 state=finished raised ClientResponseError>]
+2025-03-21 13:03:27,507 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:03:28,094 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:03:30,749 [INFO] ✅ Elegendő piaci adat van (234 rekord).
+2025-03-21 13:03:30,751 [INFO] Futtatjuk a szentiment elemzést...
+2025-03-21 13:03:30,752 [INFO] ✅ Szentiment elemzés elvégezve.
+2025-03-21 13:03:30,941 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:03:31,516 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:03:31,593 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:03:31,593 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:03:33,768 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:03:33,772 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:03:33,772 [INFO] Scheduler started
+2025-03-21 13:07:57,052 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:07:57,337 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:07:57,359 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:07:57,361 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:08:01,804 [ERROR] RSS fetch hiba: RetryError[<Future at 0x73c21668e4b0 state=finished raised ClientResponseError>]
+2025-03-21 13:08:01,805 [ERROR] RSS fetch hiba: RetryError[<Future at 0x73c2178f4230 state=finished raised ClientResponseError>]
+2025-03-21 13:08:01,807 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:08:02,454 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:08:05,162 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 13:08:05,388 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:08:05,388 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 13:08:05,931 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:08:05,998 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:08:05,999 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:08:09,291 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:08:09,293 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:08:09,293 [INFO] Scheduler started
+2025-03-21 13:13:29,634 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:13:29,690 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:13:29,697 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:13:29,699 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:13:33,985 [ERROR] RSS fetch hiba: RetryError[<Future at 0x78864263f740 state=finished raised ClientResponseError>]
+2025-03-21 13:13:33,986 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7886424cbd70 state=finished raised ClientResponseError>]
+2025-03-21 13:13:33,986 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:13:34,555 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:13:37,169 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 13:13:37,373 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:13:37,373 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 13:13:37,973 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:13:38,037 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:13:38,038 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:13:40,788 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:13:40,790 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:13:40,790 [INFO] Scheduler started
+2025-03-21 13:18:40,788 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:18:40 UTC)" (scheduled at 2025-03-21 13:18:40.788035+00:00)
+2025-03-21 13:18:41,697 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:18:41,813 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:18:41,905 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:18:41,907 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:18:46,285 [ERROR] RSS fetch hiba: RetryError[<Future at 0x773f1a1ac9b0 state=finished raised ClientResponseError>]
+2025-03-21 13:18:46,286 [ERROR] RSS fetch hiba: RetryError[<Future at 0x773f1a3ad040 state=finished raised ClientResponseError>]
+2025-03-21 13:18:46,286 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:18:46,787 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:18:49,107 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 13:18:49,275 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:18:49,275 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 13:18:49,776 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:18:49,842 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:18:49,842 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:18:52,084 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:23:40 UTC)" executed successfully
+2025-03-21 13:20:19,351 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:20:19,383 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:20:19,392 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:20:19,393 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:20:23,493 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7155643b9ca0 state=finished raised ClientResponseError>]
+2025-03-21 13:20:23,493 [ERROR] RSS fetch hiba: RetryError[<Future at 0x715564803e90 state=finished raised ClientResponseError>]
+2025-03-21 13:20:23,494 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:20:24,076 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:20:26,603 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 13:20:26,789 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:20:26,789 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 13:20:27,385 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:20:27,451 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:20:27,451 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:20:27,949 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:20:27,951 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:20:27,951 [INFO] Scheduler started
+2025-03-21 13:25:27,950 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:25:27 UTC)" (scheduled at 2025-03-21 13:25:27.948996+00:00)
+2025-03-21 13:25:28,959 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 13:25:28,974 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 13:25:29,011 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 13:25:29,020 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 13:25:33,574 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c4e9a602480 state=finished raised ClientResponseError>]
+2025-03-21 13:25:33,574 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c4e9b8b42c0 state=finished raised ClientResponseError>]
+2025-03-21 13:25:33,575 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 13:25:34,128 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 13:25:36,713 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 13:25:36,903 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 13:25:36,904 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 13:25:37,423 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 13:25:37,475 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 13:25:37,476 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 13:25:37,948 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:30:27 UTC)" executed successfully
+2025-03-21 13:40:27,943 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 13:40:27,946 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 13:40:27,946 [INFO] Scheduler started
+2025-03-21 13:45:27,944 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:45:27 UTC)" (scheduled at 2025-03-21 13:45:27.943641+00:00)
+2025-03-21 13:50:27,944 [WARNING] Execution of job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:50:27 UTC)" skipped: maximum number of running instances reached (1)
+2025-03-21 13:50:28,265 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 13:55:27 UTC)" executed successfully
+2025-03-21 13:55:27,944 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:00:27 UTC)" (scheduled at 2025-03-21 13:55:27.943641+00:00)
+2025-03-21 14:00:27,944 [WARNING] Execution of job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:00:27 UTC)" skipped: maximum number of running instances reached (1)
+2025-03-21 14:00:28,166 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:05:27 UTC)" executed successfully
+2025-03-21 14:05:27,944 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:10:27 UTC)" (scheduled at 2025-03-21 14:05:27.943641+00:00)
+2025-03-21 14:10:27,944 [WARNING] Execution of job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:10:27 UTC)" skipped: maximum number of running instances reached (1)
+2025-03-21 14:10:28,190 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:15:27 UTC)" executed successfully
+2025-03-21 14:15:27,944 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:20:27 UTC)" (scheduled at 2025-03-21 14:15:27.943641+00:00)
+2025-03-21 14:20:27,944 [WARNING] Execution of job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:20:27 UTC)" skipped: maximum number of running instances reached (1)
+2025-03-21 14:20:28,159 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:25:27 UTC)" executed successfully
+2025-03-21 14:25:27,944 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:30:27 UTC)" (scheduled at 2025-03-21 14:25:27.943641+00:00)
+2025-03-21 14:29:55,170 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:29:55,255 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:29:55,287 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:29:55,289 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:29:59,354 [ERROR] RSS fetch hiba: RetryError[<Future at 0x70be32adf9b0 state=finished raised ClientResponseError>]
+2025-03-21 14:29:59,355 [ERROR] RSS fetch hiba: RetryError[<Future at 0x70be32bc89b0 state=finished raised ClientResponseError>]
+2025-03-21 14:29:59,355 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:29:59,836 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 14:30:02,716 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:30:02,941 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:30:02,942 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:30:03,486 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:30:03,546 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:30:03,546 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:30:04,269 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 14:30:04,274 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 14:30:04,276 [INFO] Scheduler started
+2025-03-21 14:43:33,016 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:43:33,046 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:43:33,065 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:43:33,066 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:43:37,477 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7f44e32359a0 state=finished raised ClientResponseError>]
+2025-03-21 14:43:37,477 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7f44e311f140 state=finished raised ClientResponseError>]
+2025-03-21 14:43:37,478 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:43:38,050 [INFO] ✅ Adatintegráció kész. Összesen 4 rekord keletkezett.
+2025-03-21 14:43:40,452 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:43:40,638 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:43:40,638 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:43:41,123 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:43:41,179 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:43:41,179 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:43:41,628 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 14:43:41,630 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 14:43:41,630 [INFO] Scheduler started
+2025-03-21 14:46:21,522 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:46:21,560 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:46:21,581 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:46:21,583 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:46:26,062 [ERROR] RSS fetch hiba: RetryError[<Future at 0x794bd2feeae0 state=finished raised ClientResponseError>]
+2025-03-21 14:46:26,062 [ERROR] RSS fetch hiba: RetryError[<Future at 0x794bd28e6b40 state=finished raised ClientResponseError>]
+2025-03-21 14:46:26,063 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:46:29,710 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:46:29,897 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:46:29,898 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:46:30,417 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:46:30,486 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:46:30,486 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:46:31,016 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 14:46:31,018 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 14:46:31,018 [INFO] Scheduler started
+2025-03-21 14:51:31,016 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:51:31 UTC)" (scheduled at 2025-03-21 14:51:31.015817+00:00)
+2025-03-21 14:51:31,927 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:51:31,951 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:51:31,997 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:51:31,999 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:51:36,014 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c7e91ab21b0 state=finished raised ClientResponseError>]
+2025-03-21 14:51:36,014 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7c7e919cd1f0 state=finished raised ClientResponseError>]
+2025-03-21 14:51:36,015 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:51:39,270 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:51:39,437 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:51:39,437 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:51:39,886 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:51:39,934 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:51:39,934 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:51:40,383 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 14:56:31 UTC)" executed successfully
+2025-03-21 14:56:31,016 [INFO] Running job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 15:01:31 UTC)" (scheduled at 2025-03-21 14:56:31.015817+00:00)
+2025-03-21 14:56:32,047 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:56:32,056 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:56:32,061 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:56:32,062 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:56:36,080 [ERROR] RSS fetch hiba: RetryError[<Future at 0x79385da7b080 state=finished raised ClientResponseError>]
+2025-03-21 14:56:36,081 [ERROR] RSS fetch hiba: RetryError[<Future at 0x79385dd61550 state=finished raised ClientResponseError>]
+2025-03-21 14:56:36,081 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:56:39,423 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:56:39,587 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:56:39,587 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:56:40,027 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:56:40,076 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:56:40,076 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:56:40,514 [INFO] Job "run_all_tasks (trigger: interval[0:05:00], next run at: 2025-03-21 15:01:31 UTC)" executed successfully
+2025-03-21 14:58:52,783 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 14:58:52,824 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 14:58:52,903 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 14:58:52,905 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 14:58:56,954 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7781416b5550 state=finished raised ClientResponseError>]
+2025-03-21 14:58:56,955 [ERROR] RSS fetch hiba: RetryError[<Future at 0x77814128bc80 state=finished raised ClientResponseError>]
+2025-03-21 14:58:56,955 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 14:59:00,339 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 14:59:00,560 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 14:59:00,560 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 14:59:01,040 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 14:59:01,097 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 14:59:01,097 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 14:59:01,624 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 14:59:01,627 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 14:59:01,627 [INFO] Scheduler started
+2025-03-21 15:10:33,003 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 15:10:33,013 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 15:10:33,187 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 15:10:33,189 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 15:10:37,788 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7b17421cdb80 state=finished raised ClientResponseError>]
+2025-03-21 15:10:37,788 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7b1742620440 state=finished raised ClientResponseError>]
+2025-03-21 15:10:37,789 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 15:10:40,845 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 15:10:40,998 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 15:10:40,998 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 15:10:41,389 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 15:10:41,433 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 15:10:41,434 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 15:10:41,843 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 15:10:41,845 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 15:10:41,845 [INFO] Scheduler started
+2025-03-21 15:16:27,328 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 15:16:27,338 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 15:16:27,356 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 15:16:27,358 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 15:16:31,494 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7cddd96e1fa0 state=finished raised ClientResponseError>]
+2025-03-21 15:16:31,494 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7cddd91e7bf0 state=finished raised ClientResponseError>]
+2025-03-21 15:16:31,495 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 15:16:32,445 [INFO] ✅ Data integration complete. Total records: 60.
+2025-03-21 15:16:34,787 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 15:16:34,956 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 15:16:34,957 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 15:16:35,418 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 15:16:35,468 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 15:16:35,468 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 15:16:35,945 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 15:16:35,947 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 15:16:35,947 [INFO] Scheduler started
+2025-03-21 15:38:39,757 [INFO] ✅ BTCUSD Kraken adatai mentve.
+2025-03-21 15:38:39,764 [INFO] ✅ XRPUSD Kraken adatai mentve.
+2025-03-21 15:38:39,789 [INFO] ✅ SOLUSD Kraken adatai mentve.
+2025-03-21 15:38:39,791 [INFO] 🎉 Kraken adatok feldolgozása kész.
+2025-03-21 15:38:44,301 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7277afe34c20 state=finished raised ClientResponseError>]
+2025-03-21 15:38:44,302 [ERROR] RSS fetch hiba: RetryError[<Future at 0x7277b043ecf0 state=finished raised ClientResponseError>]
+2025-03-21 15:38:44,302 [INFO] ✅ 55 hír bejegyzés lekérve.
+2025-03-21 15:38:45,303 [INFO] ✅ Data integration complete. Total records: 60.
+2025-03-21 15:38:47,777 [INFO] ✅ Minden szükséges oszlop megtalálható a tréning adatokban.
+2025-03-21 15:38:47,951 [INFO] ✅ Technikai indikátorok számítása kész. Összes rekord: 234
+2025-03-21 15:38:47,951 [INFO] ✅ Elég adat áll rendelkezésre az indikátor számításhoz (234 rekord).
+2025-03-21 15:38:48,386 [INFO] 🚀 Modell tréning sikeresen befejeződött.
+2025-03-21 15:38:48,443 [INFO] 🚀 Modellezési eredmények sikeresen mentve.
+2025-03-21 15:38:48,443 [INFO] ML Pipeline részletek:
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.59      1.00      0.74        23
+           1       0.00      0.00      0.00        16
+
+    accuracy                           0.59        39
+   macro avg       0.29      0.50      0.37        39
+weighted avg       0.35      0.59      0.44        39
+
+ROC-AUC: 0.4905
+
+2025-03-21 15:38:48,905 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-03-21 15:38:48,907 [INFO] Added job "run_all_tasks" to job store "default"
+2025-03-21 15:38:48,907 [INFO] Scheduler started
+2025-03-25 08:03:06,112 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:03:07,537 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'SOLUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:03:07,549 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'XRPUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:03:07,573 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'BTCUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:03:07,574 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:03:12,172 [ERROR] RSS fetch error: RetryError[<Future at 0x79e5318e1790 state=finished raised ClientResponseError>]
+2025-03-25 08:03:12,172 [ERROR] RSS fetch error: RetryError[<Future at 0x79e531529f70 state=finished raised ClientResponseError>]
+2025-03-25 08:03:12,173 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:05:05,821 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:05:07,257 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'XRPUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:05:07,258 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'BTCUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:05:07,294 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'SOLUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:05:07,295 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:05:11,297 [ERROR] RSS fetch error: RetryError[<Future at 0x7a3b38276ae0 state=finished raised ClientResponseError>]
+2025-03-25 08:05:11,297 [ERROR] RSS fetch error: RetryError[<Future at 0x7a3b370db1a0 state=finished raised ClientResponseError>]
+2025-03-25 08:05:11,298 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:35:06,327 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:35:07,859 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'BTCUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:35:07,870 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'SOLUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:35:07,960 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'XRPUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:35:07,962 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:35:12,042 [ERROR] RSS fetch error: RetryError[<Future at 0x7063376a5370 state=finished raised ClientResponseError>]
+2025-03-25 08:35:12,042 [ERROR] RSS fetch error: RetryError[<Future at 0x706337631af0 state=finished raised ClientResponseError>]
+2025-03-25 08:35:12,043 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:41:28,140 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:41:29,461 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'BTCUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:41:29,483 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'SOLUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:41:29,537 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.ProgrammingError) (1146, "Table 'market_news_db.symbols' doesn't exist")
+[SQL: SELECT id FROM symbols WHERE symbol = %(symbol)s]
+[parameters: {'symbol': 'XRPUSD'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-03-25 08:41:29,538 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:41:33,652 [ERROR] RSS fetch error: RetryError[<Future at 0x716cc9b4c0b0 state=finished raised ClientResponseError>]
+2025-03-25 08:41:33,652 [ERROR] RSS fetch error: RetryError[<Future at 0x716cc98ebd40 state=finished raised ClientResponseError>]
+2025-03-25 08:41:33,653 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:43:53,207 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:43:54,517 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 43, 54, 504368, tzinfo=<UTC>), 'symbol_id': 1, 'price': 86725.1, 'open_price': 86717.3, 'high': 86725.1, 'low': 86717.3, 'bid': 86725.0, 'ask': 86725.1, 'volume': 0.00392773}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:43:54,555 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 43, 54, 542266, tzinfo=<UTC>), 'symbol_id': 2, 'price': 140.43, 'open_price': 140.5, 'high': 140.5, 'low': 140.43, 'bid': 140.42, 'ask': 140.43, 'volume': 17.36175319}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:43:54,558 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 43, 54, 544450, tzinfo=<UTC>), 'symbol_id': 3, 'price': 2.43005, 'open_price': 2.43005, 'high': 2.43005, 'low': 2.43005, 'bid': 2.43004, 'ask': 2.43005, 'volume': 4145.41329}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:43:54,560 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:43:58,778 [ERROR] RSS fetch error: RetryError[<Future at 0x73810245be90 state=finished raised ClientResponseError>]
+2025-03-25 08:43:58,779 [ERROR] RSS fetch error: RetryError[<Future at 0x73810246b6e0 state=finished raised ClientResponseError>]
+2025-03-25 08:43:58,779 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:46:39,039 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:46:40,550 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 46, 40, 546745, tzinfo=<UTC>), 'symbol_id': 2, 'price': 140.36, 'open_price': 140.36, 'high': 140.38, 'low': 140.36, 'bid': 140.35, 'ask': 140.36, 'volume': 42.791782}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:46:40,606 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 46, 40, 603929, tzinfo=<UTC>), 'symbol_id': 3, 'price': 2.43004, 'open_price': 2.43004, 'high': 2.43004, 'low': 2.43004, 'bid': 2.43, 'ask': 2.43001, 'volume': 62.42637}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:46:40,618 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 46, 40, 615056, tzinfo=<UTC>), 'symbol_id': 1, 'price': 86688.5, 'open_price': 86688.5, 'high': 86688.5, 'low': 86688.5, 'bid': 86688.5, 'ask': 86688.6, 'volume': 0.0}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:46:40,619 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:46:44,772 [ERROR] RSS fetch error: RetryError[<Future at 0x7746e5160590 state=finished raised ClientResponseError>]
+2025-03-25 08:46:44,772 [ERROR] RSS fetch error: RetryError[<Future at 0x7746e6993350 state=finished raised ClientResponseError>]
+2025-03-25 08:46:44,773 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:46:49,272 [ERROR] ❌ No data available for training.
+2025-03-25 08:51:06,780 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 08:51:08,100 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 51, 8, 97543, tzinfo=<UTC>), 'symbol_id': 3, 'price': 2.432, 'open_price': 2.432, 'high': 2.432, 'low': 2.432, 'bid': 2.43199, 'ask': 2.432, 'volume': 205.59210526}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:51:08,144 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 51, 8, 141156, tzinfo=<UTC>), 'symbol_id': 2, 'price': 140.38, 'open_price': 140.38, 'high': 140.38, 'low': 140.38, 'bid': 140.37, 'ask': 140.38, 'volume': 1.14926}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:51:08,161 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 8, 51, 8, 157553, tzinfo=<UTC>), 'symbol_id': 1, 'price': 86722.2, 'open_price': 86722.2, 'high': 86722.2, 'low': 86722.2, 'bid': 86722.1, 'ask': 86722.2, 'volume': 0.0}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 08:51:08,162 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 08:51:12,952 [ERROR] RSS fetch error: RetryError[<Future at 0x7d5123c02b70 state=finished raised ClientResponseError>]
+2025-03-25 08:51:12,952 [ERROR] RSS fetch error: RetryError[<Future at 0x7d5123402960 state=finished raised ClientResponseError>]
+2025-03-25 08:51:12,953 [INFO] ✅ Fetched 0 news items.
+2025-03-25 08:51:16,659 [ERROR] ❌ No data available for training.
+2025-03-25 09:12:13,059 [INFO] Not within stock trading hours (New York time). Skipping Alpaca data collection.
+2025-03-25 09:12:14,340 [ERROR] ❌ Error processing Kraken data for SOLUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 9, 12, 14, 336563, tzinfo=<UTC>), 'symbol_id': 2, 'price': 140.1, 'open_price': 140.06, 'high': 140.06, 'low': 140.06, 'bid': 140.1, 'ask': 140.12, 'volume': 0.0}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 09:12:14,381 [ERROR] ❌ Error processing Kraken data for BTCUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 9, 12, 14, 378699, tzinfo=<UTC>), 'symbol_id': 1, 'price': 86706.1, 'open_price': 86706.1, 'high': 86706.1, 'low': 86706.1, 'bid': 86706.0, 'ask': 86706.1, 'volume': 0.00049812}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 09:12:14,388 [ERROR] ❌ Error processing Kraken data for XRPUSD: (pymysql.err.OperationalError) (1054, "Unknown column 'symbol_id' in 'field list'")
+[SQL: 
+                INSERT INTO market_data (timestamp, symbol_id, price, open_price, high, low, bid_price, ask_price, volume)
+                VALUES (%(timestamp)s, %(symbol_id)s, %(price)s, %(open_price)s, %(high)s, %(low)s, %(bid)s, %(ask)s, %(volume)s)
+                ON DUPLICATE KEY UPDATE price = VALUES(price), volume = VALUES(volume);
+            ]
+[parameters: {'timestamp': datetime.datetime(2025, 3, 25, 9, 12, 14, 385718, tzinfo=<UTC>), 'symbol_id': 3, 'price': 2.43308, 'open_price': 2.43308, 'high': 2.43308, 'low': 2.43308, 'bid': 2.43329, 'ask': 2.43344, 'volume': 0.0}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-03-25 09:12:14,389 [INFO] 🎉 Kraken data collection complete.
+2025-03-25 09:12:18,580 [ERROR] RSS fetch error: RetryError[<Future at 0x7bbeef606de0 state=finished raised ClientResponseError>]
+2025-03-25 09:12:18,581 [ERROR] RSS fetch error: RetryError[<Future at 0x7bbeeeebe720 state=finished raised ClientResponseError>]
+2025-03-25 09:12:18,581 [INFO] ✅ Fetched 0 news items.
+2025-03-25 09:12:22,564 [ERROR] ❌ No data available for training.

@@ -1,0 +1,128 @@
+========================================
+ADATBÁZIS SCHEMA DOKUMENTÁCIÓJA
+========================================
+
+Ez a dokumentáció leírja a trading_db adatbázisának könyvtárszerű felépítését.
+A dokumentáció a következő táblákat tartalmazza, ahová a projekt adatai mentésre kerülnek:
+  1. market_data                - Piaci adatok és technikai indikátorok (alap oszlopok + bővített indikátorok, sentiment)
+  2. technical_indicators       - Külön kezelt, részletes technikai indikátor értékek
+  3. model_predictions          - ML pipeline előrejelzései (szimbólum, időpont, előrejelzés, bizalom)
+  4. market_price_history       - Napi árfolyam adatok (open, close, high, low, volume)
+  5. order_book                 - A piaci rendelések könyve (timestamp, szimbólum, top bid/ask árak és mennyiségek)
+  6. trade_logs                 - Kereskedési napló: miért és mikor történt a kereskedés, részletes okokkal
+  7. symbols                    - Szimbólumok egyedi tárolása
+  8. market_news                - RSS hírek adatai (timestamp, szimbólum, cím, tartalom, publikáció dátuma)
+  9. integrated_market_data     - Az integrált piaci adatok, melyek tartalmazzák a market_data alapadatokat,
+                                 kiegészítve a sentiment és az összes technikai indikátor értékével
+
+========================================
+KÖNYVTÁRSZERKEZET
+========================================
+
+database_schema/
+├── market_data/
+│   ├── columns.txt
+│   └── description.txt
+├── technical_indicators/
+│   ├── columns.txt
+│   └── description.txt
+├── model_predictions/
+│   ├── columns.txt
+│   └── description.txt
+├── market_price_history/
+│   ├── columns.txt
+│   └── description.txt
+├── order_book/
+│   ├── columns.txt
+│   └── description.txt
+├── trade_logs/
+│   ├── columns.txt
+│   └── description.txt
+├── symbols/
+│   ├── columns.txt
+│   └── description.txt
+├── market_news/
+│   ├── columns.txt
+│   └── description.txt
+└── integrated_market_data/
+    ├── columns.txt
+    └── description.txt
+
+========================================
+FÁJLOK TARTALMA
+========================================
+
+[market_data/columns.txt]
+--------------------------------------------------
+id INT AUTO_INCREMENT PRIMARY KEY
+timestamp DATETIME
+symbol VARCHAR(20)
+price FLOAT
+open_price FLOAT
+high FLOAT
+low FLOAT
+bid_price FLOAT
+ask_price FLOAT
+volume FLOAT
+sentiment VARCHAR(20)
+rsi FLOAT
+macd FLOAT
+macd_signal FLOAT
+macd_diff FLOAT
+stoch FLOAT
+stoch_signal FLOAT
+sma FLOAT
+ema FLOAT
+bb_hband FLOAT
+bb_lband FLOAT
+bb_mavg FLOAT
+atr FLOAT
+adx FLOAT
+obv FLOAT
+supertrend FLOAT
+supertrend_trend VARCHAR(10)
+alligator_jaw FLOAT
+alligator_teeth FLOAT
+alligator_lips FLOAT
+pivot FLOAT
+r1 FLOAT
+s1 FLOAT
+r2 FLOAT
+s2 FLOAT
+r3 FLOAT
+s3 FLOAT
+fib_0 FLOAT
+fib_236 FLOAT
+fib_382 FLOAT
+fib_50 FLOAT
+fib_618 FLOAT
+fib_786 FLOAT
+fib_1 FLOAT
+--------------------------------------------------
+
+[market_data/description.txt]
+--------------------------------------------------
+Ez a tábla tartalmazza az alap piaci adatokat, beleértve az árfolyamokat (price, open_price, high, low), volumen adatokat, valamint a kiegészítő indikátor értékeket (RSI, MACD, stb.) és a sentiment elemzés eredményét.
+--------------------------------------------------
+
+[technical_indicators/columns.txt]
+--------------------------------------------------
+id INT AUTO_INCREMENT PRIMARY KEY
+timestamp DATETIME
+symbol VARCHAR(20)
+rsi FLOAT
+macd FLOAT
+macd_signal FLOAT
+macd_diff FLOAT
+stoch FLOAT
+stoch_signal FLOAT
+sma FLOAT
+ema FLOAT
+bb_hband FLOAT
+bb_lband FLOAT
+bb_mavg FLOAT
+atr FLOAT
+adx FLOAT
+obv FLOAT
+supertrend FLOAT
+supertrend_trend VARCHAR_

@@ -1,0 +1,63 @@
+2025-03-25 13:10:21,301 [INFO] 🔄 Piaci adatok integrálása elkezdődött.
+2025-03-25 13:10:21,348 [ERROR] ❌ Hiányzó oszlopok: ['close', 'open']
+2025-03-25 13:10:21,448 [INFO] ✅ Indikátorok mentve az adatbázisba.
+2025-03-25 13:10:21,449 [INFO] ✅ Adatintegráció sikeresen befejezve.
+2025-03-25 13:28:54,979 [INFO] 🔄 Piaci adatok integrálása elkezdődött.
+2025-03-25 13:28:55,024 [INFO] ✅ Piaci adatok sikeresen betöltve az adatbázisból.
+2025-03-25 13:28:55,024 [INFO] ✅ Minden szükséges oszlop megtalálható.
+2025-03-25 13:30:23,936 [INFO] 🔄 Piaci adatok integrálása elkezdődött.
+2025-03-25 13:30:23,990 [INFO] ✅ Piaci adatok sikeresen betöltve az adatbázisból.
+2025-03-25 13:30:23,991 [INFO] ✅ Minden szükséges oszlop megtalálható.
+2025-03-25 13:40:45,887 [INFO] 🔄 Piaci adatok integrálása elkezdődött.
+2025-03-25 13:40:45,931 [INFO] ✅ Piaci adatok sikeresen betöltve az adatbázisból.
+2025-03-25 13:40:45,931 [INFO] ✅ Minden szükséges oszlop megtalálható.
+2025-03-25 13:40:45,931 [INFO] ℹ️ 3 sor áll rendelkezésre a számításokhoz.
+2025-03-25 13:40:45,931 [INFO] ℹ️ RSI: Legalább 14 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ MACD: Legalább 26 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ Stochastic: Legalább 14 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ SMA/EMA: Legalább 20 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ Bollinger: Legalább 20 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ ATR: Legalább 14 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,932 [INFO] ℹ️ ADX: Legalább 14 adat kell, most 3. Kihagyom.
+2025-03-25 13:40:45,935 [INFO] ✅ OBV számítva.
+2025-03-25 13:40:45,937 [INFO] ✅ Alligator számítva.
+2025-03-25 13:40:45,941 [INFO] ✅ Pivot pontok számítva.
+2025-03-25 13:40:45,943 [INFO] ✅ Fibonacci számítva.
+2025-03-25 13:40:45,943 [INFO] ✅ Minden indikátor (amihez volt elegendő adat) sikeresen kiszámolva.
+2025-03-25 13:40:46,045 [INFO] ✅ Indikátorok mentve az adatbázisba.
+2025-03-25 13:40:46,046 [INFO] ✅ Adatintegráció sikeresen befejezve.
+2025-03-26 08:11:38,930 [INFO] 🔄 Piaci adatok integrálása elkezdődött.
+2025-03-26 08:11:38,997 [INFO] ✅ Piaci adatok sikeresen betöltve az adatbázisból.
+2025-03-26 08:11:39,001 [INFO] 🌀 Feldolgozás kezdete a(z) BTCUSD szimbólumra.
+2025-03-26 08:11:39,002 [INFO] ℹ️ [BTCUSD] 1 sor áll rendelkezésre.
+2025-03-26 08:11:39,003 [INFO] ℹ️ [BTCUSD] RSI-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] MACD-hez legalább 26 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] Stochastic-hoz legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] SMA/EMA-hoz legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] Bollinger-hez legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] ATR-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,004 [INFO] ℹ️ [BTCUSD] ADX-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,015 [INFO] ✅ [BTCUSD] Indikátorok számítva (amihez volt elég adat).
+2025-03-26 08:11:39,015 [INFO] 🌀 Feldolgozás kezdete a(z) SOLUSD szimbólumra.
+2025-03-26 08:11:39,016 [INFO] ℹ️ [SOLUSD] 1 sor áll rendelkezésre.
+2025-03-26 08:11:39,016 [INFO] ℹ️ [SOLUSD] RSI-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,016 [INFO] ℹ️ [SOLUSD] MACD-hez legalább 26 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,016 [INFO] ℹ️ [SOLUSD] Stochastic-hoz legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,017 [INFO] ℹ️ [SOLUSD] SMA/EMA-hoz legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,017 [INFO] ℹ️ [SOLUSD] Bollinger-hez legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,017 [INFO] ℹ️ [SOLUSD] ATR-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,017 [INFO] ℹ️ [SOLUSD] ADX-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,024 [INFO] ✅ [SOLUSD] Indikátorok számítva (amihez volt elég adat).
+2025-03-26 08:11:39,025 [INFO] 🌀 Feldolgozás kezdete a(z) XRPUSD szimbólumra.
+2025-03-26 08:11:39,025 [INFO] ℹ️ [XRPUSD] 1 sor áll rendelkezésre.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] RSI-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] MACD-hez legalább 26 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] Stochastic-hoz legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] SMA/EMA-hoz legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] Bollinger-hez legalább 20 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] ATR-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,026 [INFO] ℹ️ [XRPUSD] ADX-hez legalább 14 adat kell, most 1. Kihagyom.
+2025-03-26 08:11:39,038 [INFO] ✅ [XRPUSD] Indikátorok számítva (amihez volt elég adat).
+2025-03-26 08:11:39,041 [INFO] ✅ Összesen 3 szimbólum feldolgozva, 3 sor.
+2025-03-26 08:11:39,181 [INFO] ✅ Indikátorok mentve az adatbázisba.
+2025-03-26 08:11:39,182 [INFO] ✅ Adatintegráció sikeresen befejezve.

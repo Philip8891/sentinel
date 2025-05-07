@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+import sys
+import os
+import time
+# Két szinttel feljebb lépünk, hogy a my_project csomagot elérjük.
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
