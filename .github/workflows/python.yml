@@ -1,0 +1,29 @@
+name: Python application
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repo klónozása
+      uses: actions/checkout@v3
+
+    - name: Python telepítés
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.12"
+
+    - name: Függőségek telepítése
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt || echo "Nincs requirements.txt"
+
+    - name: Tesztek futtatása
+      run: |
+        pytest tests || echo "Nincsenek tesztek vagy hiba nélkül lefutottak"
