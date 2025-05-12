@@ -1,1 +1,1 @@
-venv/
+__pycache__/\n*.pyc\nvenv/\nlogs/\nawscliv2.zip
